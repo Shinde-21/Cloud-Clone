@@ -65,12 +65,13 @@ cd Cloud-Clone
 
 
 npm install
+
 🔐 Set Up Environment Variables
+
 Create a .env.local file in the root directory and add:
 
 NEXT_PUBLIC_APPWRITE_ENDPOINT="https://cloud.appwrite.io/v1"
-NEXT_PUBLIC_APPWRITE_PROJECT=""
-
+NEXT_PUBLIC_APPWRITE_PROJECT="" 
 NEXT_PUBLIC_APPWRITE_DATABASE=""
 NEXT_PUBLIC_APPWRITE_USERS_COLLECTION=""
 NEXT_PUBLIC_APPWRITE_FILES_COLLECTION=""
