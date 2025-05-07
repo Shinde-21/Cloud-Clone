@@ -1,36 +1,79 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+📁 Storage Management & File Sharing Platform
+A modern storage management and file sharing platform built with the Next.js , React and Appwrite. Easily upload, organize, view, download, and share your files with a sleek and responsive UI.
 
-## Getting Started
 
-First, run the development server:
 
-```bash
+⚙️ Tech Stack
+React 19
+
+Next.js 15
+
+Appwrite
+
+TailwindCSS
+
+ShadCN UI
+
+TypeScript
+
+🔋 Features
+✅ User Authentication with Appwrite
+Signup, login, and logout functionality powered by Appwrite Authentication.
+
+✅ File Uploads
+Supports uploading of documents, images, videos, and audio files.
+
+✅ View & Manage Files
+Browse uploaded files, preview in new tab, rename, or delete files.
+
+✅ Download Files
+Download your uploaded files anytime.
+
+✅ File Sharing
+Share files with others seamlessly via e-mail for collaboration and access.
+
+✅ Dashboard
+Insightful dashboard displaying storage usage, recent uploads, and file type summary.
+
+✅ Global Search
+Find files and shared content easily with robust search.
+
+✅ Sorting Options
+Sort files by date, name, or size for better organization.
+
+✅ Modern Responsive Design
+Minimalist and clean UI that looks great on all devices.
+
+
+🚀 Quick Start
+✅ Prerequisites
+Make sure you have the following installed:
+
+Git
+
+Node.js
+
+npm
+
+🔄 Clone the Repository
+
+git clone https://github.com/Shinde-21/Cloud-Clone.git
+cd Cloud-Clone
+
+
+npm install
+🔐 Set Up Environment Variables
+Create a .env.local file in the root directory and add:
+
+NEXT_PUBLIC_APPWRITE_ENDPOINT="https://cloud.appwrite.io/v1"
+NEXT_PUBLIC_APPWRITE_PROJECT=""
+NEXT_PUBLIC_APPWRITE_DATABASE=""
+NEXT_PUBLIC_APPWRITE_USERS_COLLECTION=""
+NEXT_PUBLIC_APPWRITE_FILES_COLLECTION=""
+NEXT_PUBLIC_APPWRITE_BUCKET=""
+NEXT_APPWRITE_KEY=""
+Replace these with your actual Appwrite credentials from the Appwrite Console.
+
+▶️ Run the Development Server
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
