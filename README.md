@@ -60,7 +60,7 @@ npm
 
 🔄 Clone the Repository
 
-git clone https://github.com/Shinde-21/Cloud-Clone.git
+git clone https://github.com/Shinde-21/Cloud-Clone.git 
 cd Cloud-Clone
 
 
