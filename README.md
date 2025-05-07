@@ -17,6 +17,8 @@ ShadCN UI
 TypeScript
 
 🔋 Features
+
+
 ✅ User Authentication with Appwrite
 Signup, login, and logout functionality powered by Appwrite Authentication.
 
@@ -45,7 +47,8 @@ Sort files by date, name, or size for better organization.
 Minimalist and clean UI that looks great on all devices.
 
 
-🚀 Quick Start
+🚀 Quick Start'
+
 ✅ Prerequisites
 Make sure you have the following installed:
 
